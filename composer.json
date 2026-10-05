@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/nikic-php-parser",
+    "description": "Tyhp type definitions for nikic/php-parser 5.9.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "5.9.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/nikic-php-parser-impl": "~5.9.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/nikic-php-parser-impl"
+        }
+    }
+}
